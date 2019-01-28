@@ -1,0 +1,9 @@
+Title: Cinefilo Empedernido
+References: https://www.filmaffinity.com/es/main.html
+	    https://www.entrelineas.org/
+	    https://www.fotogramas.es/
+	    http://cinemania.elmundo.es/criticas/
+
+Description: Una de mis grandes aficiones es ir al cine y gracias al apoyo de unos amigos 
+queria hacer un blog sobre algunas pelis vistas en 2018 sin embargo dado este curso de formacion me
+gustaria probar de hacer una pagina web que sea de criticas, reviews o opiniones de peliculas vistas por mi.
