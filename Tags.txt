@@ -1,0 +1,22 @@
+Para que sirven estos tags:
+
+- <br> : Representa un salto de linea
+- <hr> : Representa un quiebre tematico entre parrafos de una seccion o articulo o cualquier contenido
+- <ul> : Define un articulo de una lista ennumerada
+- <ol> : Define una lista ordenada de articulos
+- <li> : Define un articulo de una lista ennumerada
+- <strong> : Representa un texto especialmente importante
+- <b> : Representa un texto hacia el cual se llama la atención para propósitos utilitaros
+- <em> : Representa un texto enfatizado , como un acento de intensidad
+- <i> : Representa un texto en una voz o estado de ánimo alterno, o por lo menos de diferente calidad
+- <u> : Representa una anotación no textual sin-articular, como etiquetar un texto como mal escrito o etiquetar un nombre propio en texto en Chino
+- <h1> : El nivel mayor de una cabecera de un documento
+- <h6> : El nivel menor de una cabecera de un documento
+- <tr> : Representa una fila de celdas en una tabla
+- <th> : Representa una celda encabezado en una tabla
+- <td> : Representa una celda de datos en una tabla
+- <sub>: Representa un subíndice 
+- <sup>: Representa un superíndice
+- <legend>: Representa el título de un <fieldset>
+
+Que es un tag vacio? Son tags que no tienen ningun contenido ademas que no tiene un tag de cierre. Ejemplos: <base>, <col>, <img> , etc.
