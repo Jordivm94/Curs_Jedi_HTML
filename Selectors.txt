@@ -1,0 +1,63 @@
+Which selector do we need?
+
+a) To get the <p>
+
+<div>
+<p> </p>
+</div>
+
+Resposta: p
+
+b) To get the first <p>
+
+<div class="first">
+<p class="first"> </p>
+<p> </p>
+</div>
+
+Resposta: .first
+
+
+c) To get the middle <li>
+
+<ul>
+<li>
+<li>
+<li>
+</ul>
+
+Resposta: li:nth-child(3)
+
+d) To get all <p> inside <div>
+
+<div>
+<p> </p>
+<form>
+<p> </p>
+</form>
+</div>
+<p>
+
+Resposta: div p
+
+e) To get the deepest <p>
+
+<div class="second">
+<p id="first" class="second third">
+<p class="second third">
+<p class="third"> </p>
+</p>
+</p>
+<div>
+
+Resposta: p:last-child
+
+Bonus: is anything wrong here?
+
+<p id="first text">
+<p id="second text">
+<p id="third text"></p>
+</p>
+</p>
+
+Resposta: 
