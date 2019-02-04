@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <script>
+      window.onload = function () {
+        function square (p1){
+          return p1*p1;
+        }
+        function check_even_odd(p1){
+          if (p1%2 == 0) {
+            return "Es parell"
+          }
+          else {
+            return "Es senar"
+          }
+      
+        }
+        function factorial (p1){
+          var total = 1;
+          for (i = 1; i<=p1;i++) {
+            total = total*i;
+          }
+          return total;
+        }
+        function random (){
+          return 10;
+        }
+        function biggest(p1,p2,p3,p4){
+          if (p1 > p2 && p1 > p3 && p1 > p3){
+            return p1;
+          }
+          else if (p2 > p1 && p2 > p3 && p2 > p4){
+            return p2;
+          }
+          else if (p3 > p1 && p3 > p2 && p3 > p4){
+            return p3;
+          }
+          else{
+            return p4;
+          }
+        }
+        function crida_funcio_factorial(p1){
+          return factorial(p1);
+        }
+        var mesos =["gener","febrer","març","abril","maig","juny","juliol","agost","setembre","octubre","novembre","decembre"]
+        console.log(mesos);
+        document.getElementById("func1").innerHTML = square(3);
+        document.getElementById("func2").innerHTML = check_even_odd(28);
+        document.getElementById("func3").innerHTML = factorial(5);
+        document.getElementById("func4").innerHTML = random();
+        document.getElementById("func5").innerHTML = biggest(8,10,12,2);
+        document.getElementById("func6").innerHTML = crida_funcio_factorial(5);
+      }
+    </script>
+  </head>
+    <body>
+      <h1> Basic Functions </h1>
+        <p> La 1r Funcio calcula el quadrat d'un numero donat per exemple 3</p>
+        <p id = "func1"> </p>
+        <p> La 2n Funcio et diu si un numero es senar o parell per exemple 28 </p>
+         <p id = "func2"> </p>
+        <p> La 3r Funcio et calcula el factorial d'un numero per exemple 5 </p>
+        <p id = "func3"> </p>
+        <p> La 4t Funcio et retorna un numero random per exemple 10 </p>
+       <p id = "func4"> </p>
+        <p> La 5a Funcio et calcula el major numero de 4 numeros donats per exemple 8 , 10 , 12 i 2 </p>
+        <p id = "func5"> </p>
+         <p> La 6a Funcio crida la 3r funcio (La de factorial) amb el mateix numero 5 </p>
+        <p id = "func6"> </p>
+        <br>
+    </body>
+</html>
