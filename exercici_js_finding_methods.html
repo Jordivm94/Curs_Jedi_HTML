@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title> Finding Methods </title>
+    <script>
+       window.onload = function () {
+        document.getElementById("first").innerHTML = "FIRST";
+        for(var i=0; i < document.getElementsByClassName("second").length; i++){
+          document.getElementsByClassName("second")[i].innerHTML = "SECOND";
+        }
+       
+        document.getElementById("last").innerHTML = "LAST";
+       }
+    </script>
+  </head>
+    <body>
+      <h1> Finding Methods </h1>
+
+      <div id= "first"> </div>
+      <div class="second"> </div>
+      <div class="second"> </div>
+      <div id = "last"> </div>
+       
+    </body>
+</html>
