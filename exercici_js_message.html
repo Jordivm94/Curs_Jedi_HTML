@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title> Personalized message </title>
+    <script>
+    
+
+        function myfunction(){
+            var person = prompt("Please enter your name:", "Jordi");
+            var txt;
+            if (person == null || person == "") {
+               txt = "User cancelled the prompt";
+             }
+            else {
+               txt = "Hello " + person + "! How are you today?";
+            }
+            document.getElementById("promo").innerHTML = txt;
+        }
+      
+    </script>
+  </head>
+  <body>
+      <h1> Welcome </h1>
+      <button onclick= "myfunction()"> Click it </button>
+      <p id = "promo"> </p>
+  </body>
+</html>
