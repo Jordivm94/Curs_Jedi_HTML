@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title> Exercici Carrusel </title>
+	<script>
+
+		window.onload = function () {
+			setInterval(next,2000); 
+			document.getElementById("button1").onclick = next;
+		}
+		var seg = 0;
+		function next(){
+			if (seg%3 == 0) document.getElementById("image").src = "red.png";
+			if (seg%3 == 1) document.getElementById("image").src = "blue.png";
+			if (seg%3 == 2) document.getElementById("image").src = "green.png";
+			++seg;
+		}
+	</script>
+</head>
+<body>
+	<div>
+		<img id = "image" src="red.png">
+	</div>
+
+	<button id = "button1"> Next </button>
+</body>
+</html>
