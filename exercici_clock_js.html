@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title> Exercici Clock </title>
+	<style type="text/css">
+		#time{
+			display: flex;
+			justify-content: center;
+			align-items: center;
+		}
+		#title{
+			display: flex;
+			justify-content: center;
+			align-items: center;
+		}
+	</style>
+	<script >
+		var seg = 0;
+		var min = 0;
+		var h = 0;
+		window.onload = function () {
+			setInterval(Clock,1000); 
+		}
+		function Clock(){
+			++seg;
+			var seg2;
+			var min2;
+			var h2;
+			if (seg == 60) {
+				seg = 0;
+				++min;
+			}
+			if (min == 60){
+				min = 0;
+				++h;
+			}
+			if (h == 24){
+				h = 0;
+			}
+			if (h < 10)  h2 = "0" + h;
+			else h2 = h;
+			if (min <  10)  min2 = "0" + min;
+			else min2 = min;
+			if (seg < 10) seg2 = "0" + seg;
+			else seg2 = seg;
+			document.getElementById("time").innerText = h2+":"+min2+":"+seg2;
+		}
+	</script>
+</head>
+<body>
+	<h1 id= "title"> Rellotge </h1>
+	<div id = "time"> </div>
+</body>
+</html>
